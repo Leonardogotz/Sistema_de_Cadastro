@@ -14,3 +14,5 @@ após feito o designer salvamos o arquivo UI dentro da pasta do projeto.
 2- Após salvar o arquivo dentro da pasta começamos a configurar o nosso arquivo python para receber a interface criada
 e tambem passar as instruções para o sistema reconhecer os botões inseridos.
 
+3- Após configurar nossa aplicação em python, nos criamos nosso banco de dados em SQL, para que as informações dos usuarios fique salvo para a futura analise dos perfis futuramente.
+
