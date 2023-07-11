@@ -39,7 +39,11 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(130, 161, 237);</string>
+     <string notr="true">border-radius: 15px;
+border-color: rgb(0, 0, 0);
+border-style: outset;
+border-width: 2px;
+background-color: rgb(130, 161, 237);</string>
     </property>
     <property name="text">
      <string>Cadastrar</string>
@@ -244,7 +248,11 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">border-radius: 15px;
+border-color: rgb(0, 0, 0);
+border-style: outset;
+border-width: 2px;
+background-color: rgb(130, 161, 237);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_2">
@@ -263,7 +271,11 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">border-radius: 15px;
+border-color: rgb(0, 0, 0);
+border-style: outset;
+border-width: 2px;
+background-color: rgb(130, 161, 237);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_3">
@@ -282,28 +294,40 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">border-radius: 15px;
+border-color: rgb(0, 0, 0);
+border-style: outset;
+border-width: 2px;
+background-color: rgb(130, 161, 237);</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>260</y>
+      <x>80</x>
+      <y>250</y>
       <width>131</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Times New Roman</family>
-      <pointsize>11</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Impact</family>
+      <pointsize>13</pointsize>
      </font>
     </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(130, 161, 237);</string>
+     <string notr="true">border-radius: 15px;
+border-color: rgb(0, 0, 0);
+border-style: outset;
+border-width: 2px;
+background-color: rgb(130, 161, 237);</string>
     </property>
     <property name="text">
      <string>Lista de Usuários</string>
