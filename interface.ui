@@ -289,13 +289,13 @@ background-color: rgb(130, 161, 237);</string>
      <string>Lista de Usuários</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_5">
+   <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>80</y>
-      <width>121</width>
-      <height>31</height>
+      <x>50</x>
+      <y>70</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -316,13 +316,13 @@ background-color: rgb(130, 161, 237);</string>
      <string>Compras</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_6">
+   <widget class="QCheckBox" name="checkBox_2">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>80</y>
+      <x>180</x>
+      <y>70</y>
       <width>141</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -331,9 +331,6 @@ background-color: rgb(130, 161, 237);</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
@@ -346,13 +343,13 @@ background-color: rgb(130, 161, 237);</string>
      <string>Administrativo</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_7">
+   <widget class="QCheckBox" name="checkBox_3">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>80</y>
-      <width>91</width>
-      <height>31</height>
+      <x>340</x>
+      <y>70</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -373,13 +370,13 @@ background-color: rgb(130, 161, 237);</string>
      <string>Estoque</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_8">
+   <widget class="QCheckBox" name="checkBox_4">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>80</y>
-      <width>91</width>
-      <height>31</height>
+      <x>480</x>
+      <y>70</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
