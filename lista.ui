@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(200, 237, 133);</string>
+   <string notr="true">background-color: rgb(39, 76, 119);</string>
   </property>
   <property name="toolButtonStyle">
    <enum>Qt::ToolButtonIconOnly</enum>
@@ -68,7 +68,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(237, 206, 133);</string>
+     <string notr="true">background-color: rgb(96, 150, 186);</string>
     </property>
     <property name="gridStyle">
      <enum>Qt::NoPen</enum>
@@ -123,7 +123,7 @@
 border-color: rgb(0, 0, 0);
 border-style: outset;
 border-width: 2px;
-background-color: rgb(225, 216, 137);</string>
+background-color: rgb(96, 150, 186);</string>
     </property>
     <property name="text">
      <string>DELETE</string>
