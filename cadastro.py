@@ -17,44 +17,46 @@ def funcao_principal():
     
     if interface.checkBox.isChecked() :
         print("Setor compras selecionado")
-        codigo ="Compras"
+        codigo ="Suprimentos"
     elif interface.checkBox_2.isChecked() :
         print("Setor administrativo selecionado")
-        codigo ="Administrativo"
+        codigo ="Contabilidade"
     elif interface.checkBox_3.isChecked() :
         print("Setor estoque selecionado")
-        codigo ="Estoque"    
+        codigo ="Comercial"    
     elif interface.checkBox_4.isChecked() :
         print("Setor vendas selecionado")
-        codigo ="Vendas"
+        codigo ="Logistica"
 
     
     perfil = ""
     
     if interface.radioButton.isChecked() :
         print("Perfil Suprimentos selecionado")
-        perfil ="Suprimentos"
+        perfil ="Compras"
     elif interface.radioButton_2.isChecked() :
         print("Perfil Contabilidade selecionado")
-        perfil ="Contabilidade"
+        perfil ="Administrativo"
     elif interface.radioButton_3.isChecked() :
         print("Perfil Comercial selecionado")
-        perfil ="Comercial"    
+        perfil ="Estoque"    
     elif interface.radioButton_4.isChecked() :
         print("Perfil Logistica selecionado")
-        perfil ="Logistica"
-
+        perfil ="Vendas"
+    
+    print(perfil)
+    print(codigo)
     print("Nome do Usuário:",linha1)
     print("CPF:",linha2)
 
     
-    if interface.checkBox.isChecked() and interface.radioButton_2.isChecked() or interface.radioButton_4.isChecked():
+    if interface.radioButton.isChecked() and (interface.checkBox_2.isChecked() or interface.checkBox_4.isChecked()):
         erro.show()
-    elif interface.checkBox_2.isChecked() and interface.radioButton.isChecked() or interface.radioButton_3.isChecked():
+    elif interface.radioButton_2.isChecked() and (interface.checkBox.isChecked() or interface.checkBox_3.isChecked()):
         erro.show()
-    elif interface.checkBox_3.isChecked() and interface.radioButton_2.isChecked() or interface.radioButton_3.isChecked():
+    elif interface.radioButton_3.isChecked() and (interface.checkBox_2.isChecked() or interface.checkBox_3.isChecked()):
         erro.show()
-    elif interface.checkBox_4.isChecked() and interface.radioButton_2.isChecked() or interface.radioButton_4.isChecked():
+    elif interface.radioButton_4.isChecked() and (interface.checkBox_2.isChecked() or interface.checkBox_4.isChecked()):
         erro.show()          
     else: 
         cursor = banco.cursor()

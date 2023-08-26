@@ -192,7 +192,7 @@ background-color: rgb(254, 250, 224);</string>
      <string notr="true">color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Suprimentos</string>
+     <string>Compras</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="radioButton_2">
@@ -215,7 +215,7 @@ background-color: rgb(254, 250, 224);</string>
      <string notr="true">color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Contabilidade</string>
+     <string>Administrativo</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="radioButton_3">
@@ -238,7 +238,7 @@ background-color: rgb(254, 250, 224);</string>
      <string notr="true">color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Comercial</string>
+     <string>Estoque</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="radioButton_4">
@@ -261,7 +261,7 @@ background-color: rgb(254, 250, 224);</string>
      <string notr="true">color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Logistica</string>
+     <string>Vendas</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
@@ -347,7 +347,7 @@ background-color: rgb(254, 250, 224);</string>
      <rect>
       <x>50</x>
       <y>70</y>
-      <width>111</width>
+      <width>121</width>
       <height>41</height>
      </rect>
     </property>
@@ -366,7 +366,7 @@ border-width: 2px;
 background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Compras</string>
+     <string>Suprimentos</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_2">
@@ -393,7 +393,7 @@ border-width: 2px;
 background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Administrativo</string>
+     <string>Contabilidade</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_3">
@@ -451,7 +451,7 @@ border-width: 2px;
 background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Estoque</string>
+     <string>Comercial</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -496,7 +496,7 @@ border-width: 2px;
 background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
-     <string>Vendas</string>
+     <string>Logistica</string>
     </property>
    </widget>
   </widget>
