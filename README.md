@@ -47,7 +47,11 @@ cursor = banco.cursor()
 
 cursor.execute("CREATE TABLE cadastro (usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
 
-7 - Após isso podemos verificar se a tabela foi criada digitando "show tables", após isso vamos inserir os dados na tabela conforme o código da função principal.
+7 - Após isso podemos verificar se a tabela foi criada digitando "show tables", após isso o comando abaixo pode ser excluido da função:
+
+cursor.execute("CREATE TABLE cadastro (usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
+
+e vamos inserir os dados na tabela conforme o código que esta na função principal.
 
 
 
