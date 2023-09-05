@@ -16,3 +16,38 @@ e tambem passar as instruções para o sistema reconhecer os botões inseridos.
 
 3- Após configurar nossa aplicação em python, nos criamos nosso banco de dados em SQL, para que as informações dos usuarios fique salvo para a futura analise dos perfis futuramente.
 
+4- Ultilizamos o Wampserver para a criação do banco de dados, o qual pode ser instalado nesse link (https://www.wampserver.com/en/download-wampserver-64bits/), após isso, com o Wampserver aberto, ele aparecerá no canto inferior direito, vamos clicar nele, ir em MySQL e abrir o console, se pedir uma senha é só apertar a tecla ENTER.
+
+5- com o console aberto vamos na função do nosso programa principal e usaremos a seguinte função para criar o banco de dados: 
+
+import mysql.connector
+
+banco = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    passwd="",
+    )
+
+cursor = banco.cursor()
+
+cursor.execute("CREATE DATABASE cadastro")
+
+6 - Digite "show databases" no console do Wampserver para verificar se foi realmente criado, após verificar que o banco tenha sido criado,  colocaremos o nome do banco na database da nossa função e iremos criar a tabela de cadastro.
+
+import mysql.connector
+
+banco = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    passwd="",
+    database="cadastro"
+    )
+
+cursor = banco.cursor()
+
+cursor.execute("CREATE TABLE cadastro (usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
+
+7 - Após isso podemos verificar se a tabela foi criada digitando "show tables", após isso vamos inserir os dados na tabela conforme o código da função principal.
+
+
+
