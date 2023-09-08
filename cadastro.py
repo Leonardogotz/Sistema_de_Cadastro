@@ -9,6 +9,7 @@ banco = mysql.connector.connect(
     )
 
 
+
 def funcao_principal():
     linha1 = interface.lineEdit.text()
     linha2 = interface.lineEdit_2.text()
@@ -111,12 +112,16 @@ interface=uic.loadUi("interface.ui")
 lista=uic.loadUi("lista.ui")
 sucesso=uic.loadUi("sucesso.ui")
 erro=uic.loadUi("erro.ui")
+teladeentrada=uic.loadUi("teladeentrada.ui")
 interface.pushButton.clicked.connect(funcao_principal)
 interface.pushButton_2.clicked.connect(lista_usuarios)
 lista.pushButton.clicked.connect(deletar_dados)
 sucesso.pushButton.clicked.connect(fechar_pagina)
 erro.pushButton.clicked.connect(fechar_erro)
+teladeentrada.consulta.clicked.connect(lista_usuarios)
+teladeentrada.cadastro.clicked.connect(interface.show)
+teladeentrada.sair.clicked.connect(teladeentrada.close)
 
 
-interface.show()
+teladeentrada.show()
 app.exec()
