@@ -1455,7 +1455,7 @@ background-color: rgb(254, 250, 224);</string>
      <string>Sair</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="conflitos1">
+   <widget class="QPushButton" name="sair2">
     <property name="geometry">
      <rect>
       <x>350</x>
