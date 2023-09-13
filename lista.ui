@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>501</width>
+    <width>652</width>
     <height>496</height>
    </rect>
   </property>
@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(39, 76, 119);</string>
+   <string notr="true">background-color: rgb(96, 150, 186);</string>
   </property>
   <property name="toolButtonStyle">
    <enum>Qt::ToolButtonIconOnly</enum>
@@ -26,8 +26,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>0</y>
+      <x>230</x>
+      <y>10</y>
       <width>201</width>
       <height>31</height>
      </rect>
@@ -47,9 +47,9 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>40</y>
-      <width>511</width>
+      <x>20</x>
+      <y>60</y>
+      <width>611</width>
       <height>361</height>
      </rect>
     </property>
@@ -90,7 +90,12 @@
     </column>
     <column>
      <property name="text">
-      <string>Código</string>
+      <string>Código Principal</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Código Secundário</string>
      </property>
     </column>
     <column>
@@ -102,8 +107,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>410</y>
+      <x>530</x>
+      <y>430</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -132,8 +137,8 @@ background-color: rgb(96, 150, 186);</string>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>420</y>
+      <x>30</x>
+      <y>440</y>
       <width>71</width>
       <height>31</height>
      </rect>
@@ -159,16 +164,6 @@ background-color: rgb(96, 150, 186);</string>
      <string>Voltar</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>501</width>
-     <height>21</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
