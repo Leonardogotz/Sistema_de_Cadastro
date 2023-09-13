@@ -368,6 +368,12 @@ background-color: rgb(254, 250, 224);</string>
     <property name="text">
      <string>Suprimentos</string>
     </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_2">
     <property name="geometry">
@@ -394,6 +400,12 @@ background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
      <string>Contabilidade</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_3">
@@ -462,6 +474,9 @@ background-color: rgb(254, 250, 224);</string>
     <property name="autoRepeat">
      <bool>false</bool>
     </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
     <property name="autoRepeatDelay">
      <number>300</number>
     </property>
@@ -497,6 +512,12 @@ background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
      <string>Logistica</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">

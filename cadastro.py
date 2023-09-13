@@ -14,20 +14,37 @@ def funcao_principal():
     linha1 = interface.lineEdit.text()
     linha2 = interface.lineEdit_2.text()
 
-    codigo = ""
+    codigo_1 = ""
+    codigo_2 = ""
+    codigo_3 = ""
+    codigo_4 = ""
     
     if interface.checkBox.isChecked() :
         print("Setor compras selecionado")
-        codigo ="Suprimentos"
-    elif interface.checkBox_2.isChecked() :
+        codigo_1 ="Suprimentos"
+    else:
+        codigo_1 == None
+
+
+    if interface.checkBox_2.isChecked() :
         print("Setor administrativo selecionado")
-        codigo ="Contabilidade"
-    elif interface.checkBox_3.isChecked() :
+        codigo_2 ="Contabilidade"
+    else:
+        codigo_2 == None
+        
+    if interface.checkBox_3.isChecked() :
         print("Setor estoque selecionado")
-        codigo ="Comercial"    
-    elif interface.checkBox_4.isChecked() :
+        codigo_3 ="Comercial"
+    else:
+        codigo_3 == None
+
+    if interface.checkBox_4.isChecked() :
         print("Setor vendas selecionado")
-        codigo ="Logistica"
+        codigo_4 ="Logistica"
+    else:
+        codigo_4 == None
+   
+    codigos = (codigo_1,codigo_2,codigo_3,codigo_4)
 
     
     perfil = ""
@@ -45,8 +62,9 @@ def funcao_principal():
         print("Perfil Logistica selecionado")
         perfil ="Vendas"
     
+    
     print(perfil)
-    print(codigo)
+    print(codigos)
     print("Nome do Usuário:",linha1)
     print("CPF:",linha2)
 
@@ -61,8 +79,8 @@ def funcao_principal():
         erro.show()          
     else: 
         cursor = banco.cursor()
-        comando_SQL = "INSERT INTO cadastro (usuario, cpf, codigo, perfil) VALUES (%s,%s,%s,%s)"
-        dados = (str(linha1),str(linha2),codigo,perfil)
+        comando_SQL = "INSERT INTO cadastro (usuario, cpf, codigos, perfil) VALUES (%s,%s,%s,%s)"
+        dados = (str(linha1),str(linha2), str(codigos), perfil)
         cursor.execute(comando_SQL,dados)
         banco.commit()
         interface.lineEdit.setText("")
