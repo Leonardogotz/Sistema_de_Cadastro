@@ -290,6 +290,14 @@ background-color: rgb(254, 250, 224);</string>
        <height>331</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+border-color: rgb(0, 0, 0);
+border-style: outset;
+border-width: 2px;
+background-color: rgb(254, 250, 224);
+color: rgb(0, 0, 0);</string>
+     </property>
      <property name="html">
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;

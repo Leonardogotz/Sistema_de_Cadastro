@@ -96,7 +96,7 @@ def funcao_principal():
                         erro.show()
                     elif interface.radioButton_3.isChecked() and (interface.checkBox_2.isChecked() or interface.checkBox_3.isChecked()):
                         erro.show()
-                    elif interface.radioButton_4.isChecked() and (interface.checkBox_2.isChecked() or interface.checkBox_4.isChecked()):
+                    elif interface.radioButton_4.isChecked() and (interface.checkBox.isChecked() or interface.checkBox_4.isChecked()):
                         erro.show()          
                     else: 
                         cursor = banco.cursor()

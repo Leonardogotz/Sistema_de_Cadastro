@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>553</width>
-    <height>496</height>
+    <width>488</width>
+    <height>481</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,7 +26,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>160</x>
       <y>10</y>
       <width>201</width>
       <height>31</height>
@@ -50,9 +50,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>511</width>
+      <x>-100</x>
+      <y>50</y>
+      <width>721</width>
       <height>361</height>
      </rect>
     </property>
@@ -87,6 +87,11 @@
     </property>
     <column>
      <property name="text">
+      <string>id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
       <string>Usuário</string>
      </property>
     </column>
@@ -114,7 +119,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>380</x>
       <y>430</y>
       <width>91</width>
       <height>41</height>
@@ -135,7 +140,7 @@
 border-color: rgb(0, 0, 0);
 border-style: outset;
 border-width: 2px;
-background-color: rgb(96, 150, 186);</string>
+background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
      <string>DELETE</string>
@@ -144,7 +149,7 @@ background-color: rgb(96, 150, 186);</string>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>10</x>
       <y>440</y>
       <width>71</width>
       <height>31</height>
@@ -165,14 +170,13 @@ background-color: rgb(96, 150, 186);</string>
 border-color: rgb(0, 0, 0);
 border-style: outset;
 border-width: 2px;
-background-color: rgb(96, 150, 186);</string>
+background-color: rgb(254, 250, 224);</string>
     </property>
     <property name="text">
      <string>Voltar</string>
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
