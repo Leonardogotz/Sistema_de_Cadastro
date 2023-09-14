@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>686</width>
-    <height>510</height>
+    <width>661</width>
+    <height>412</height>
    </rect>
   </property>
   <property name="palette">
@@ -453,7 +453,7 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Menu</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(40, 54, 24);</string>
@@ -462,10 +462,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>40</y>
+      <x>0</x>
+      <y>0</y>
       <width>661</width>
-      <height>401</height>
+      <height>411</height>
      </rect>
     </property>
     <property name="palette">
@@ -715,8 +715,8 @@
    <widget class="QPushButton" name="cadastro">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>90</y>
+      <x>290</x>
+      <y>50</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -1186,8 +1186,8 @@ background-color: rgb(254, 250, 224);</string>
    <widget class="QPushButton" name="consulta">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>150</y>
+      <x>350</x>
+      <y>110</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -1227,8 +1227,8 @@ background-color: rgb(254, 250, 224);</string>
    <widget class="QPushButton" name="sair">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>270</y>
+      <x>280</x>
+      <y>230</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -1458,8 +1458,8 @@ background-color: rgb(254, 250, 224);</string>
    <widget class="QPushButton" name="sair2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>210</y>
+      <x>340</x>
+      <y>170</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -1689,8 +1689,8 @@ background-color: rgb(254, 250, 224);</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>360</y>
+      <x>210</x>
+      <y>320</y>
       <width>411</width>
       <height>41</height>
      </rect>
@@ -1737,179 +1737,6 @@ border-width: 2px;
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>686</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="Arquivo">
-    <property name="palette">
-     <palette>
-      <active>
-       <colorrole role="Button">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Text">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>170</red>
-          <green>255</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Base">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Window">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="PlaceholderText">
-        <brush brushstyle="NoBrush">
-         <color alpha="128">
-          <red>170</red>
-          <green>255</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </colorrole>
-      </active>
-      <inactive>
-       <colorrole role="Button">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Text">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>170</red>
-          <green>255</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Base">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Window">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="PlaceholderText">
-        <brush brushstyle="NoBrush">
-         <color alpha="128">
-          <red>170</red>
-          <green>255</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </colorrole>
-      </inactive>
-      <disabled>
-       <colorrole role="Button">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Text">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>109</red>
-          <green>109</green>
-          <blue>109</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Base">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="Window">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>40</red>
-          <green>54</green>
-          <blue>24</blue>
-         </color>
-        </brush>
-       </colorrole>
-       <colorrole role="PlaceholderText">
-        <brush brushstyle="NoBrush">
-         <color alpha="128">
-          <red>170</red>
-          <green>255</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </colorrole>
-      </disabled>
-     </palette>
-    </property>
-    <property name="title">
-     <string>Arquivo</string>
-    </property>
-    <addaction name="separator"/>
-    <addaction name="cadastro_1"/>
-    <addaction name="consulta_1"/>
-    <addaction name="separator"/>
-    <addaction name="sair_2"/>
-   </widget>
-   <widget class="QMenu" name="menuHelp">
-    <property name="title">
-     <string>Help</string>
-    </property>
-   </widget>
-   <addaction name="Arquivo"/>
-   <addaction name="menuHelp"/>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <action name="consulta_1">
    <property name="text">
     <string>Consulta</string>
