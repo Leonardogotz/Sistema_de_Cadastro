@@ -1,5 +1,9 @@
 from PyQt5 import  uic,QtWidgets
 import mysql.connector
+from pymysql import *
+import pandas.io.sql as sql
+import pandas
+import openpyxl
 
 banco = mysql.connector.connect(
     host="localhost",
@@ -142,8 +146,16 @@ def deletar_dados():
    valor_id = dados_lidos[linha][0]
    cursor.execute("DELETE FROM cadastro WHERE id="+ str(valor_id))
 
-
-
+def exportar_dados():
+    # connect the mysql with the python
+    con = connect(user="root", password="", host="localhost", database="cadastro")
+    # read the data
+    df = sql.read_sql('select * from cadastro', con)
+    # print the data
+    print(df)
+    # export the data into the excel sheet
+    df.to_excel("teste.xlsx")
+    sucesso.close()
 
 
 app=QtWidgets.QApplication([])
@@ -159,6 +171,7 @@ interface.pushButton_2.clicked.connect(lista_usuarios)
 interface.pushButton_3.clicked.connect(interface.close)
 lista.pushButton.clicked.connect(deletar_dados)
 lista.pushButton_2.clicked.connect(lista.close)
+lista.pushButton_3.clicked.connect(exportar_dados)
 sucesso.pushButton.clicked.connect(fechar_pagina)
 erro.pushButton.clicked.connect(fechar_erro)
 erro2.pushButton.clicked.connect(erro2.close)
