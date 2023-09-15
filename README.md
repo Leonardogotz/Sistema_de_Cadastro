@@ -5,14 +5,31 @@ onde cada usuario tem permissões especificas dentro do sistema de uma empresa,
 podendo conflitar ou não umas com as outras, definindo isso em matrizes de SoD
 conforme passados pelo professor em aula.
 
+Instale essas bibliotecas antes de rodar a aplicação:
+
+#from PyQt5 import  uic,QtWidgets
+#import mysql.connector
+#from pymysql import *
+#import pandas.io.sql as sql
+#import pandas
+#import openpyxl
+
 Passo a passo do código:
 
 1- Criamos a interface do nosso cadastro de usuarios usando o Qt Designer,
 podendo ser instalado pelo cmd do computador ultilizando os comandos, *pip install PyQt5* e *pip install pyqt5-tools*,
-após feito o designer salvamos o arquivo UI dentro da pasta do projeto.
+após feito o design salvamos o arquivo UI dentro da pasta do projeto.
 
 2- Após salvar o arquivo dentro da pasta começamos a configurar o nosso arquivo python para receber a interface criada
 e tambem passar as instruções para o sistema reconhecer os botões inseridos.
+
+    -Nossa aplicação contém uma página inicial na qual você poderá através dela acessar as abas de cadastro de usuários, a aba onde fica listado os usuários cadastrados, a aba aonde fica a explicação dos conflitos, e um botão no qual encerra a aplicação;
+
+    -Na aba de cadastro, o usuário poderá cadastrar o colaborador respeitando as matrizes de SoD, na qual está explicada em um tabela de instrução logo ao lado direito;
+
+    -Na aba de listas, o usuário poderá ver as pessoas cadastradas e suas respectivas permissões, também podendo exportar essa lista em um arquivo xlsx.
+
+    -Na aba de conflitos, está especificado cais são os conflitos entre os perfis e os códigos dos usuários.
 
 3- Após configurar nossa aplicação em python, nos criamos nosso banco de dados em SQL, para que as informações dos usuarios fique salvo para a futura analise dos perfis futuramente.
 
@@ -45,13 +62,13 @@ banco = mysql.connector.connect(
 
 cursor = banco.cursor()
 
-cursor.execute("CREATE TABLE cadastro (usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
+cursor.execute("CREATE TABLE cadastro (id INT NOT NULL AUTO_INCREMENT, usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
 
 7 - Após isso podemos verificar se a tabela foi criada digitando "show tables", após isso o comando abaixo pode ser excluido da função:
 
-cursor.execute("CREATE TABLE cadastro (usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
+cursor.execute("CREATE TABLE cadastro (id INT NOT NULL AUTO_INCREMENT, usuario VARCHAR(255), cpf INT(11), codigo VARCHAR(255), perfil VARCHAR(255))")
 
-e vamos inserir os dados na tabela conforme o código que esta na função principal.
+e vamos inserir os dados na tabela rodando nossa aplicação e criando o primeiro cadastro.
 
 
 
