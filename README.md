@@ -1,5 +1,8 @@
 # Sistema_de_Cadastro
 
+
+*LINK PARA VIDEO EXPLICANDO A APLICAÇÃO: https://youtu.be/b8a7vqOclts*
+
 Estamos criando um sistema de cadastro de colaboradores de uma empresa,
 onde cada usuario tem permissões especificas dentro do sistema de uma empresa,
 podendo conflitar ou não umas com as outras, definindo isso em matrizes de SoD
